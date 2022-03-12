@@ -1,5 +1,6 @@
 from mycroft import MycroftSkill, intent_file_handler
 from mycroft.skills.audioservice import AudioService
+from os.path import dirname, join
 
 
 class FirstSkill(MycroftSkill):
